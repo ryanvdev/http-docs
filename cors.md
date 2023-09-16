@@ -27,7 +27,7 @@ Access-Control-Allow-Credentials: true
 __Syntax__:
 
 ```http
-# For requests without credentials
+ <!-- For requests without credentials -->
 Access-Control-Allow-Origin: *
 
 # Specifies an origin
@@ -38,7 +38,7 @@ __Example__:
 
 ```http
 Access-Control-Allow-Origin: abc.net
-# or 
+<!-- or  -->
 Access-Control-Allow-Origin: *
 ```
 
